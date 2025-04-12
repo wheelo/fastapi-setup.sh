@@ -49,5 +49,19 @@ fi
 # 启动 FastAPI 服务
 # cd $(dirname $0)
 echo "当前目录: $(pwd)"
-# cd example/fastapi
+# 启动 FastAPI 服务
+echo "======================="
+echo "正在启动 FastAPI 服务..."
+echo "服务地址: http://127.0.0.1:8000"
+echo "API文档: http://127.0.0.1:8000/docs"
+echo "ReDoc文档: http://127.0.0.1:8000/redoc"
+echo "======================="
 poetry run uvicorn main:app --reload --log-level info
+
+# 支持后台运行
+# poetry run uvicorn main:app --reload & 
+
+# 等待服务启动
+sleep 1
+# 打开浏览器访问 API 文档
+open http://127.0.0.1:8000/docs

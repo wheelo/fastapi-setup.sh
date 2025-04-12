@@ -1,5 +1,6 @@
 # FastAPI 快速启动脚本
 
+一键启动：
 ```bash
 curl -fsSL https://raw.githubusercontent.com/wheelo/fastapi-setup.sh/refs/heads/main/fastapi-setup.sh | source /dev/stdin
 ```
@@ -12,7 +13,7 @@ curl -fsSL https://raw.githubusercontent.com/wheelo/fastapi-setup.sh/refs/heads/
 - 使用 Poetry 进行依赖管理
 - 自动安装 FastAPI 和 Uvicorn
 - 提供基础的 API 示例
-- 支持热重载开发模式
+- 支持热重载
 
 ## 本地使用方法
 
