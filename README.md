@@ -7,7 +7,6 @@
 - 自动创建和管理 Python 虚拟环境
 - 使用 Poetry 进行依赖管理
 - 自动安装 FastAPI 和 Uvicorn
-- 提供基础的 API 示例
 - 支持热重载开发模式
 
 ## 前置要求
