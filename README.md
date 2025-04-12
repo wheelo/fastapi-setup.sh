@@ -1,6 +1,6 @@
 # FastAPI 快速启动脚本
 
-使用UV与Poetry快速设置和运行 FastAPI 项目的自动化脚本
+使用 [uv](https://github.com/astral-sh/uv) 与 [poetry](https://python-poetry.org) 和虚拟环境快速设置和运行 [fastAPI](https://fastapi.tiangolo.com) 项目的自动化脚本
 
 ## 功能特点
 
@@ -13,6 +13,9 @@
 ## 前置要求
 
 - Python >= 3.12.1
-- uv 包管理工具
-- Poetry 包管理工具
+- uv Poetry 包管理工具
 
+## 使用方法
+
+```bash
+source fastapi-setup.sh
