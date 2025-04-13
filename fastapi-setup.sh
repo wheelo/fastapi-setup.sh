@@ -64,4 +64,4 @@ poetry run uvicorn main:app --reload --log-level info
 # 等待服务启动
 sleep 1
 # 打开浏览器访问 API 文档
-open http://127.0.0.1:8000/docs
+python3 -m webbrowser "http://127.0.0.1:8000/docs"
